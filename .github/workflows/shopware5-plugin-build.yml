@@ -1,0 +1,31 @@
+name: 🛒 Automatic Release
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build & Release
+    uses: bauer-group/automation-templates/.github/workflows/shopware5-build.yml@main
+    with:
+      plugin-system: 'auto'
+      php-version: '7.4'
+      validate-plugin: false
+      run-tests: false
+      run-phpcs: true
+      phpcs-standard: 'PSR12'
+      run-phpstan: false
+      phpstan-level: '5'
+      run-security-check: false
+      node-build: false
+      upload-to-store: false
+      update-store-page: false
+      create-github-release: true
+      auto-tag-version: true
+      generate-changelog: false
