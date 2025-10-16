@@ -1,0 +1,32 @@
+{
+    "label": {
+        "de": "BAUER GROUP - Apple iOS 9.3.3 Hotfix f&uuml;r das Warenkorbproblem",
+        "en": "BAUER GROUP - Apple iOS 9.3.3 Hotfix for the shopping cart issue"
+    },
+    "author": "BAUER GROUP",
+    "copyright": "Copyright &copy; 2016 BAUER GROUP - http://www.bauer-group.com/",
+    "link": "http://go.bauer-group.com/ecommerce",
+    "support": "http://go.bauer-group.com/support",
+    "description": "Das Plugin wendet die von Shopware empfohlene Probleml&ouml;sung zum Problem mit dem Warenkorb f&uuml;r das Apple iOS 9.3.3 an. Mit der aktuellen iOS-Version 9.3.3 gibt es Probleme einen Artikel in den Warenkorb zu legen. Ursache daf&uuml;r ist, dass der User-Agent des Apple-Ger&auml;tes von Shopware als Bot erkannt wird. Durch diesen Umstand funktionieren einige Funktionen wie beispielsweise der Warenkorb in Shopware nicht mehr.<br/><br/>Alle Details finden sich unter http://community.shopware.com/Problemloesung-fuer-Apple-iOS-9.3.3-Update_detail_1936.html",
+
+    "license": "GNU AGPLv3",
+    
+    "currentVersion": "0.1.0",
+
+    "changelog": {
+        "de": {
+            "0.1.0": "Erste Version"
+        },
+        "en": {
+            "0.1.0": "First Version"
+        }
+    },
+
+    "compatibility": {
+        "minimumVersion": "5.0.0",
+        "maximumVersion": null,
+        "blacklist": [
+
+        ]
+    }
+}
